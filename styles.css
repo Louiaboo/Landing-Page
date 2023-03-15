@@ -20,6 +20,7 @@ body {
     justify-content: center;
     gap: 20px;
     align-items: center;
+    padding: 100px 200px;
 }
 
 .header {
@@ -42,7 +43,8 @@ body {
 a, 
 .subtext,
 .right, 
-.footer {
+.footer, 
+.msg-sub {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -97,21 +99,70 @@ button {
     justify-content: center;
     align-items: center;
     flex: 1 1 0;
+    padding: 30px 250px;
 } 
 
-.cards {
+.info-header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    margin-bottom: 30px;
+}
 
+.info-cards {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-bottom: 80px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3px;
+}
+
+.text {
+    text-align: center;
+    padding: 0px 20px;
+}
+
+.squares {
+    height: 150px;
+    width: 150px;
+    border: solid 2px #3882F6;
+    border-radius: 25px;
+    flex: 0 0 auto;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 75px 250px
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937;
+}
+
+.quoted-by {
+    font-size: 24px;
+    font-weight: 600;
+    align-self: flex-end;
 }
 
 .modal {
     display: flex;
     background-color: #3882F6;
-    margin: 92px 92px;
+    margin: 92px 200px;
     padding: 32px 82px;
     justify-content: space-between;
     border-radius: 5px;
     align-items: center;
-    flex: 0 1 auto;
 }
 
 .message {
